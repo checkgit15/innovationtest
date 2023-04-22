@@ -1,1 +1,162 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+/*HEADER*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppons',san-serif;
+}
+footer .contain{
+    background:#262626;
+    
+}
+p{
+    color:black;
+}
+
+#row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+#rows{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 500px;
+    
+}
+
+.footer-col ul{
+    list-style:none;
+}
+.footer-col h2{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    padding-left:15%;
+}
+.rulers{
+    color:white;
+    opacity:0.7;
+}
+.footer-col ul li{
+    padding: 10px 0;
+}
+
+.footer-col ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    opacity:0.7;
+}
+/* 
+.footer-col h4::before{
+    content:'';
+    width:70px;
+    height:2px;
+    position:absolute;
+    background-color: whitesmoke;
+    bottom: -10px;
+} */
+p{
+    color:white;
+}
+
+.socialicons i
+{
+    color:white;
+}
+
+@media(max-width:600px){
+    footer #row{
+        flex-direction:column;
+        padding:20px 30px;
+    }
+
+    footer .footer-col ul{
+        margin-left:20px;
+        margin-bottom:20px;
+    }
+    .footer-col input{
+        width:100%;
+    }
+}
+
+body{min-height: 100vh;}
+
+.sticky-footer{
+   position:sticky;
+top:0%;
+height: 1.2em;
+min-height: 10vh;
+
+
+}
+
+#btn-close{
+    display:hidden;
+}
+
+
+/*Body Content*/
+
+.body,.html{
+    overflow-x: hidden;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align:center;
+    font-size: 4vminS;
+    color:blue
+}
+.row{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+
+
+/* one app to rule them all*/
+
+.container{
+    background-color: azure;
+    padding:0;
+    margin:1px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    height: 200px;
+    width:100px;
+}
+
+.item{
+    background-color: azure;
+    color:black;
+    font-size: 20px;
+    padding:0px;
+    margin:0px;
+   
+}
+
+

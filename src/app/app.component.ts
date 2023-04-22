@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as functions from "firebase-functions";
 
 @Component({
   selector: 'app-root',
